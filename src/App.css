@@ -143,3 +143,54 @@ button span {
   border-radius: 5px;
 
 }
+
+
+
+/* information page */
+.infoDiv {
+
+  position: relative;
+  top: 100px;
+  border: 1px solid red;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.compInfo {
+  width: 100%;
+  border: 1px solid gray;
+}
+
+.compInfoTitle {
+  /* text-align: center; */
+}
+
+.compInfoQuote {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  margin-right: 3%;
+  margin-left: 3%;
+
+}
+
+.goalDiv {
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.missionDiv {
+  border: 1px solid green;
+  width: 40%;
+  padding: 15px;
+  margin-right: 5%;
+}
+
+.visionDiv {
+  border: 1px solid purple;
+  width: 40%;
+  padding: 15px;
+
+}
