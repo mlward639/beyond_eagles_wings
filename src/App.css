@@ -146,12 +146,6 @@ button span {
 
 /* information page */
 .infoDiv {
-  position: relative;
-  top: 50px;
-  border: 1px solid red;
-  box-sizing: border-box;
-  width: 100%;
-  height: 80vh;
 
 }
 
@@ -196,16 +190,11 @@ button span {
 
 /* about me page */
 .aboutDiv {
-  position: relative;
-  top: 50px;
-  border: 1px solid red;
-  box-sizing: border-box;
-  width: 100%;
+  
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 70vh;
 }
 
 .aboutInfo {
@@ -230,4 +219,105 @@ button span {
 .bioPic {
   width: 65%;
   
+}
+
+
+/* services page */
+/* .servicesDiv {
+  position: relative;
+  top: 100px;
+  border: 1px solid red;
+  box-sizing: border-box;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.servicesDesc {
+  font-size: 22px;
+}
+
+.servicesLinks {
+ color: inherit;
+ text-decoration: none;
+
+}
+
+.servicesList {
+  list-style: none;
+}
+
+.serviceCompDivs {
+  position: relative;
+  top: 100px;
+  border: 1px solid red;
+  box-sizing: border-box;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+}
+
+/* initial consult */
+.consultDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.consultWordsDiv {
+  width: 46%;
+  border: 1px solid yellow;
+
+}
+
+.consultDesc {
+  font-size: 22px;
+}
+
+.consultList {
+  font-size: 20px;
+}
+
+.consultListTitle {
+  font-size: 22px;
+}
+
+.consultPicDiv {
+  width: 46%;
+  border: 2px solid purple;
+  display: flex;
+  justify-content: center;
+}
+
+/* life review */
+.reviewContainer {
+  /* border: 13px solid yellowgreen; */
+  display: flex;
+  align-items: center;
+}
+
+.reviewDiv {
+
+  /* border: 2px solid blueviolet; */
+  box-sizing: border-box;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reviewDiv li, .reviewDiv p {
+  font-size: 24px;
+}
+
+
+/* Vigil Planning */
+.VigilPlanList, .vigilList {
+  margin-left: 25px;
+}
+
+/* addl services */
+.addlServicesDiv li {
+font-size: 24px;
 }

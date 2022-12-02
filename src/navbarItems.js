@@ -12,36 +12,32 @@ export const navbarItems = [
     url: "/services",
     submenu: [
       {
-        title: "Info",
-        url: "info",
-      },
-      {
         title: "Initial Consult",
-        url: "initial",
+        url: "/services/initial",
       },
       {
         title: "Life Review",
-        url: "life-review",
+        url: "/services/life-review",
       },
       {
         title: "Legacy Project",
-        url: "legacy",
+        url: "/services/legacy",
       },
       {
         title: "Vigil Planning",
-        url: "vigil-planning",
+        url: "/services/vigil-planning",
       },
       {
         title: "The Vigil",
-        url: "vigil",
+        url: "/services/vigil",
       },
       {
         title: "Additional Services",
-        url: "addl-services",
+        url: "/services/addl-services",
       },
       {
         title: "Rates",
-        url: "rates",
+        url: "/services/rates",
       },
     ],
   },
