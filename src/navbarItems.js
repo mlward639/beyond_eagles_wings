@@ -45,6 +45,10 @@ export const navbarItems = [
     title: "Contact Me",
     url: "/contact",
   },
+  {
+    title: "Additional Resources",
+    url: "/resources",
+  },
 ];
 
 // //should this go somewhere else better organized...? weird being just under src folder

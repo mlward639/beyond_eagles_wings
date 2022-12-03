@@ -13,6 +13,8 @@ import VigilPlanning from "./components/Services/VigilPlanning";
 import Vigil from "./components/Services/Vigil";
 import AddlServices from "./components/Services/AddlServices";
 import Rates from "./components/Services/Rates";
+import ContactPage from "./pages/ContactPage";
+import Resources from "./pages/Resources";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
           <Route path="addl-services" element={<AddlServices />} />
           <Route path="rates" element={<Rates />} />
         </Route>
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/resources" element={<Resources />} />
         <Route path="*" element={<p>Not found!</p>} />
       </Routes>
       <Footer />
