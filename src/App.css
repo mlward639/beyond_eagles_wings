@@ -322,8 +322,73 @@ button span {
 font-size: 24px;
 }
 
+/* contact page */
+.contactDiv {
+  margin-top: 100px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* background-color: blue;  add a background color once have color scheme*/ 
+  border: 2px solid yellow;
+}
+
+.contactDiv p {
+  font-size: 24px;;
+}
+
+.formDiv {
+  display: flex;
+  justify-content: center;
+  border: 1px solid green;
+  margin-top: 0px;
+}
+
+form {
+  width: 40%;
+  border: 1px solid red;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 24px;
+
+}
+
+.formName, .formEmail, .formPhone, .formMessage {
+  width: 100%;
+  border: 1px solid pink;
+  box-sizing:border-box;
+}
 
 
+input {
+  margin: 10px 0;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+textarea {
+  width: 100%;
+}
+
+/* input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+} */
+/* 
+label {
+  margin-right: 10px;
+} */
+
+.formSubmitBtn {
+  border-radius: 5px;
+}
+.formSubmitDiv {
+  display: flex;
+  justify-content: center;
+}
 
 /* footer */
 .footer {
@@ -339,7 +404,6 @@ font-size: 24px;
   padding-right: 10%;
 
 }
-
 
 .contact {
   border: 1px solid purple;
