@@ -288,37 +288,70 @@ button span {
 
 /* about me page */
 .aboutDiv {
-  
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background-color: var(--six);
+  color: var(--seven);
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  /* border: 2px solid pink; */
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 85vh;
+  margin-top: 70px;
+  /* border: 2px solid orange; */
+  padding-left: 50px;
 }
 
 .aboutInfo {
-  width: 100%;
-  border: 1px solid gray;
+  width: 70%;
+  border: 4px solid var(--four);
+  font-size: 21px;
+  /* padding: 10px; */
+  height: 80%;
+}
+
+.aboutInfo p {
+  padding: 15px
 }
 
 .aboutTitle {
   /* text-align: center; */
-  border: 1px solid brown;
+  /* border: 1px solid brown; */
+  background-color: var(--four);
+  color: var(--six);
+  padding: 10px;
 }
 
 .bioPicDiv {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   /* margin-right: 3%;
   margin-left: 3%; */
-  /* border: 10px solid pink; */
+  /* border: 1px solid pink; */
   justify-content: center;
+  /* width: 40%; */
+  padding-left: 50px;
+  padding-right:50px;
+
 }
 
 .bioPic {
-  width: 65%;
-  
+  /* width: 90%; */
+  height: 80%;
+  border: 7px solid var(--four);
+/* margin: -1px;
+margin-top: 0; */
+top: 0;
 }
-
 
 /* services page */
 /* .servicesDiv {
