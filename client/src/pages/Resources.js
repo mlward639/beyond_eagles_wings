@@ -9,8 +9,14 @@ function Resources() {
         <ul>
           <li>Georgia Advance Directive for Health Care</li>
           <li>
-            5 Wishes Booklet, available from their
-            <a href="https://www.fivewishes.org/" target="_blank">
+            5 Wishes Booklet, available from their&nbsp;
+            <a
+              href="https://www.fivewishes.org/"
+              target="_blank"
+              style={{
+                color: "inherit",
+              }}
+            >
               website
             </a>
             .
@@ -19,11 +25,17 @@ function Resources() {
             Easy to use checklist to create your own "When I Die" folder. Source
             for checklist is "A Beginner’s Guide To The End: Practical Advice
             For Living Life and Facing Death" by BJ Miller, MD and Shoshana
-            Berger. Click
-            <a href={FolderChecklist} target="_blank">
+            Berger. Click&nbsp;
+            <a
+              href={FolderChecklist}
+              target="_blank"
+              style={{
+                color: "inherit",
+              }}
+            >
               here
             </a>
-            to open in another tab.
+            &nbsp;to open in another tab.
           </li>
           <li>Books:</li>
           <ul>
@@ -38,6 +50,7 @@ function Resources() {
         </ul>
       </div>
       <div className="pwrptDiv">
+        <h3>Title...?</h3>
         <iframe
           src="https://docs.google.com/presentation/d/e/2PACX-1vQEkIjKzsS9CJHyOZdq5tadKs580VcCFzHBhXqeNA2_yQmkG08lPbfwJHw8U_g1OK0S86fJF4ZMiJhO/embed?start=false&loop=false"
           frameborder="0"
@@ -48,7 +61,7 @@ function Resources() {
           webkitallowfullscreen="true"
           className="pwrpt"
         ></iframe>
-        add in video once get audio
+        figure out audio once recorded, put note about audio
       </div>
     </div>
   );
