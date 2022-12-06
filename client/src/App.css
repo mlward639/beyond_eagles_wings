@@ -13,7 +13,7 @@
   --three: #48556C;
   --four: #475166;
   --five: #444859 ;
-  /* --six: #5B5B6C; */
+  --six: #e3e2df;
   --seven: #5E5C6C;
 }
 /* background-color: var(--dark); */
@@ -179,47 +179,112 @@ button span {
 
 /* information page */
 .infoDiv {
-
+  /* background-image: url(../public/images/backgroundImage.jpeg); */
+  /* border: 1px solid yellow; */
+  background-color: var(--six);
+  color: var(--seven);
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  display: flex;
+  flex-direction: row;
 }
 
 .compInfo {
-  width: 100%;
-  border: 1px solid gray;
+  width: 64%;
+  /* background-color: var(--seven); */
+  /* color: var(--six); */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  padding-top: 0;
+  /* border: 1px solid var(--four); */
+  margin-top: 70px;
+  
 }
 
 .compInfoTitle {
-  /* text-align: center; */
+  text-align: center;
+  padding-bottom: 15px;
 }
 
-.compInfoQuote {
-  display: flex;
-  align-items: center;
-  text-align: right;
-  margin-right: 3%;
-  margin-left: 3%;
+.compInfoContent {
+  text-align: center;
+  font-size: 21px;
+  padding-bottom: 10px;
 }
+
 
 .goalDiv {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .missionDiv {
-  border: 1px solid green;
-  width: 40%;
-  padding: 15px;
   margin-right: 5%;
 }
 
+.missionDiv, .visionDiv {
+  border: 2px solid var(--four);
+  width: 33%;
+  border-radius: 10px;
+}
+
+.goalDiv h3 {
+  background-color: var(--four);
+  color: var(--six);
+  padding: 5px;
+  border-radius: 10px 10px 5px 5px;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.goalDiv p {
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  /* border: 2px solid red; */
+}
+
 .visionDiv {
-  border: 1px solid purple;
+  /* border: 1px solid purple;
   width: 40%;
-  padding: 15px;
+  padding: 15px; */
 
 }
 
+.compInfoQuoteDiv {
+  /* border: 1px solid red; */
+  margin-top: 80px;
+  width: 20%;
+  margin-right: 80px;
+  display: flex;
+  /* align-items: center; */
+  margin-bottom: 30px;
+
+
+}
+.compInfoQuote {
+  display: flex;
+  /* align-items: center; */
+  text-align: right;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 40%;
+  font-style: oblique;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+}
 
 /* about me page */
 .aboutDiv {
