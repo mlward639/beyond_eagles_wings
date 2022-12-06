@@ -59,7 +59,7 @@ header {
 
 .navbar-items {
   position: relative;
-  font-size: 20px;
+  font-size: 22px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -519,6 +519,46 @@ label {
 .formSubmitDiv {
   display: flex;
   justify-content: center;
+}
+
+/* resources page */
+.resourcesContainer {
+  /* border: 1px solid red; */
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--one);
+  color: var(--four)
+}
+
+.resourcesDiv {
+  /* border: 1px solid purple; */
+  margin-top: 70px;
+  width: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.resourcesDiv ul {
+  padding-left: 30px;
+  font-size: 20px;
+  list-style:circle;
+}
+
+.pwrptDiv {
+  /* border: 1px solid blue; */
+  margin-top: 70px;
+  width: 50%;
+
+}
+
+.pwrpt {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 99%
 }
 
 /* footer */

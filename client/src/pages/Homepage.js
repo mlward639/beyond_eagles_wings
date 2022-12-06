@@ -12,7 +12,7 @@ function Homepage() {
     //prob dont need, clean up later if not used
     //marginTop: "-6.5%", //update this size to whatever size the header is set to and figure out how to make mobile responsive;  or maybe change the margin of the header and put this top margin at 0 --fixed i think
     // fontSize: "50px",
-    marginTop: "-50px",
+    marginTop: "-51px",
     zIndex: "-1",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
