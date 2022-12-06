@@ -12,7 +12,7 @@ function Homepage() {
     //prob dont need, clean up later if not used
     //marginTop: "-6.5%", //update this size to whatever size the header is set to and figure out how to make mobile responsive;  or maybe change the margin of the header and put this top margin at 0 --fixed i think
     // fontSize: "50px",
-    marginTop: "-60px",
+    marginTop: "-50px",
     zIndex: "-1",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
@@ -25,7 +25,14 @@ function Homepage() {
       </div>
       <div className="homepageContent">
         <button className="learnMoreBtn">
-          <Link to="/info" style={{ textDecoration: "none" }}>
+          <Link
+            to="/info"
+            style={{
+              textDecoration: "none",
+              color: "inherit",
+              fontSize: "22px",
+            }}
+          >
             Learn More...
           </Link>
         </button>

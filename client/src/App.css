@@ -2,15 +2,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* font-family: sans-serif; */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+:root {
+  /* declare a variable with `--` syntax */
+  --one: #E1DBD2;
+  --two: #9FA2AB;
+  --three: #48556C;
+  --four: #475166;
+  --five: #444859 ;
+  /* --six: #5B5B6C; */
+  --seven: #5E5C6C;
+}
+/* background-color: var(--dark); */
+
+
 body {
-  font-family: sans-serif;
 }
 
 header {
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  color: #212529;
+  /* box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  color: #212529; */
+  color: var(--five);
 }
 
 
@@ -18,21 +33,35 @@ header {
 .nav-area {
   display: flex;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px 20px;
+  justify-content: space-between;
+  max-width: 100%;
+  /* margin: 0 auto;
+  padding: 10px 20px; */
+
+}
+
+.nav-area nav {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid yellow; */
+  width: 100%;
 }
 
 .navbarItems {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   list-style: none;
+  width: 100%;
+
 }
 
 .navbar-items {
   position: relative;
-  font-size: 14px;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .navbar-items a {
@@ -108,7 +137,7 @@ button span {
   display: flex;
   flex-direction: column;
   margin-top: 0;
-  border: 2px solid
+  /* border: 2px solid */
 }
 
 .logoDiv {
@@ -129,17 +158,21 @@ button span {
 .homepageContent {
   /* border: 1px solid blue; */
   display: flex;
-  margin-top: 3%;
+  margin-top: 4%;
 }
 
 /* finish styling button *** */
 .learnMoreBtn {
   /* border: 1px solid brown; */
+  border: none;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 15px;
   font-size: 20px;
   border-radius: 5px;
+  background-color: var(--three);
+  color: var(--one);
+  text-align: center;
 }
 
 
@@ -398,15 +431,23 @@ label {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: var(--seven);
+  opacity: 0.5;
+  color: var(--one)
+  /* background-color: var(--one);
+  opacity: 0.6;
+  color: var(--seven) */
 
 }
 
 .contact {
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 
 .contact i {

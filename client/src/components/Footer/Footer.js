@@ -4,7 +4,10 @@ function Footer() {
   return (
     <div className="footer">
       <div className="contact">
-        <i className="fa fa-envelope"></i>cward@beyondeagleswings.com
+        <i className="fa fa-envelope"></i>
+        <a href={`mailto: cward@beyondeagleswings.com`}>
+          cward@beyondeagleswings.com
+        </a>
       </div>
       <div className="contact">
         <i className="fa fa-phone"></i>770-598-9675
