@@ -493,27 +493,35 @@ top: 0;
 
 .consultPicDiv img {
   width: 80%;
-  margin-bottom: 100px;
+  margin-bottom: 85px;
 }
 
 /* life review */
 .reviewContainer {
-  /* border: 13px solid yellowgreen; */
+  border: 3px solid yellowgreen;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  height: 87vh;
 }
 
 .reviewDiv {
-
-  /* border: 2px solid blueviolet; */
+  border: 2px solid blueviolet;
   box-sizing: border-box;
-  width: 70%;
+  /* width: 70%; */
   margin-left: auto;
   margin-right: auto;
 }
 
+.reviewDiv h1 {
+  padding-bottom: 10px;
+}
+
+.reviewDiv ul {
+  padding-left: 30px;
+}
+
 .reviewDiv li, .reviewDiv p {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 

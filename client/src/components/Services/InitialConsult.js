@@ -1,4 +1,5 @@
 import React from "react";
+import img from "../../assets/images/coffee2.jpg";
 
 function InitialConsult() {
   return (
@@ -20,10 +21,7 @@ function InitialConsult() {
         {/* <p className="consultDesc">No Charge-approx 1 hour</p> */}
       </div>
       <div className="consultPicDiv">
-        <img
-          src="https://static.wixstatic.com/media/3d72f5_815fff3c12784f16893885c93384751d~mv2.jpg/v1/crop/x_0,y_0,w_3022,h_3179/fill/w_492,h_518,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Canva%20-%20Green%20Leafed%20Plant%20Near%20Coffee%20F.jpg"
-          alt="picture of coffee cup and plant on table"
-        />
+        <img src={img} alt="picture of coffee cup and plant on table" />
       </div>
     </div>
   );
