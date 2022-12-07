@@ -588,9 +588,54 @@ margin-bottom: 15px;}
 }
 
 /* Vigil Planning */
+.planContainer {
+ /* border: 2px solid pink;  */
+ display: flex;
+ flex-direction: row;
+ padding-top: 20px;
+}
+
+.planInfo {
+  width: 50%;
+  /* border: 2px solid yellow; */
+}
+
+.planInfo h1 {
+  padding-bottom: 10px;
+}
+
+.planInfo p {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.planInfo p:first-of-type {
+  margin-bottom: 15px;
+}
+
+.planImg {
+  /* border: 2px solid white; */
+  height: auto;
+  width: 45vw;
+  margin-left: 20px;
+}
+
+.planImg img {
+  width: 100%;
+  height: auto;
+}
+
 .VigilPlanList, .vigilList {
   margin-left: 25px;
 }
+
+.VigilPlanList {
+  font-size: 18px;
+}
+
+
+
+
 
 /* addl services */
 .addlServicesDiv li {
