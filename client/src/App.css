@@ -659,9 +659,41 @@ margin-bottom: 15px;}
 
 
 /* addl services */
-.addlServicesDiv li {
-font-size: 24px;
+.addlServicesDiv {
+  /* border: 2px solid pink; */
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
 }
+
+.addlInfoDiv {
+  /* border: 1px solid gray; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.addlInfoDiv h1 {
+  padding-bottom: 15px;
+}
+
+.addlServicesDiv li {
+  font-size: 20px;
+  list-style: none;
+  /* border: 1px solid green; */
+  padding-bottom: 10px;
+}
+
+.addlImg {
+  /* border: 2px solid yellow; */
+  width: 70%;
+}
+
+.addlImg img{
+  /* border: 2px solid red; */
+  width: 45vw;
+}
+
 
 /* contact page */
 .contactContainer {
