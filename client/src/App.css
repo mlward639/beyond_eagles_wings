@@ -498,14 +498,16 @@ top: 0;
 
 /* life review */
 .reviewContainer {
-  border: 3px solid yellowgreen;
+  /* border: 3px solid yellowgreen; */
   display: flex;
   /* align-items: center; */
-  height: 87vh;
+  height: 87.84vh;
+  padding-top: 40px;
+  width: 75%;
 }
 
 .reviewDiv {
-  border: 2px solid blueviolet;
+  /* border: 2px solid blueviolet; */
   box-sizing: border-box;
   /* width: 70%; */
   margin-left: auto;
@@ -523,6 +525,21 @@ top: 0;
 .reviewDiv li, .reviewDiv p {
   font-size: 20px;
 }
+
+.reviewImgDiv {
+    width: 46%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  
+  .reviewImgDiv img {
+    width: auto;
+    height: 60%;
+    margin-bottom: 85px;
+  }
+
 
 
 /* Vigil Planning */

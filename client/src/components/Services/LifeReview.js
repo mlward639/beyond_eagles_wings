@@ -1,4 +1,5 @@
 import React from "react";
+import img from "../../assets/images/mountains2.jpg";
 
 function LifeReview() {
   return (
@@ -16,6 +17,9 @@ function LifeReview() {
           <li>Discover your legacy project</li>
           <li>Participate in guided imagery and meditation</li>
         </ul>
+      </div>
+      <div className="reviewImgDiv">
+        <img src={img} alt="picture of hiker sitting on mountain at sunset" />
       </div>
     </div>
   );
