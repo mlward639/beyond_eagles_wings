@@ -369,7 +369,7 @@ top: 0;
 
 .serviceCompDivs {
   position: relative;
-  /* border: 6px solid green; */
+  border: 6px solid green;
   box-sizing: border-box;
   width: 80%;
   margin-left: auto;
@@ -460,17 +460,24 @@ top: 0;
 }
 
 .consultWordsDiv {
-  width: 46%;
-  border: 1px solid yellow;
+  width: 50%;
+  /* border: 1px solid yellow; */
+  padding-left: 10px;
+}
 
+.consultTitle {
+  margin-bottom: 10px;
 }
 
 .consultDesc {
   font-size: 22px;
+  margin-bottom: 20px;
 }
 
 .consultList {
   font-size: 20px;
+  padding-left: 30px;
+  margin-bottom: 15px;
 }
 
 .consultListTitle {
@@ -479,9 +486,14 @@ top: 0;
 
 .consultPicDiv {
   width: 46%;
-  border: 2px solid purple;
+  /* border: 2px solid white; */
   display: flex;
   justify-content: center;
+}
+
+.consultPicDiv img {
+  width: 80%;
+  margin-bottom: 100px;
 }
 
 /* life review */

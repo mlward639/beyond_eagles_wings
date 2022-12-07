@@ -17,7 +17,7 @@ function InitialConsult() {
           <li>Vigil Planning</li>
           <li>Any other ways I can serve you</li>
         </ul>
-        <p className="consultDesc">No Charge-approx 1 hour</p>
+        {/* <p className="consultDesc">No Charge-approx 1 hour</p> */}
       </div>
       <div className="consultPicDiv">
         <img
