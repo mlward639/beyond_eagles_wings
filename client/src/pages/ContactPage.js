@@ -75,72 +75,80 @@ function ContactPage() {
   };
 
   return (
-    <div>
+    <div className="contactContainer">
       <div className="contactDiv">
-        <h1>Contact Me</h1>
-        <p>
-          I look forward to hearing from you. Please use the method most
-          comfortable for you. I can be reached by phone at 770-598-9675, email
-          at cward@beyondeagleswings, the form below, or through my{" "}
-          <a href="https://www.facebook.com/beyondeagleswings" target="_blank">
-            Facebook page
-          </a>
-          .
-        </p>
-      </div>
-      <div className="formDiv">
-        <form id="contact-form" onSubmit={handleSubmit}>
-          <div className="formName">
-            {/* <label htmlFor="name">Name:</label> */}
-            <input
-              type="text"
-              name="name"
-              placeholder="Name"
-              value={name}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="formEmail">
-            {/* <label htmlFor="email">Email address:</label> */}
-            <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              value={email}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="formPhone">
-            {/* <label htmlFor="phone-input">Phone number:</label> */}
-            <input
-              type="phone-input"
-              name="phone"
-              placeholder="Phone Number"
-              value={phone}
-              onChange={handleChange}
-            />
-          </div>
-          <div className="formMessage">
-            {/* <label htmlFor="message">Message:</label> */}
-            <textarea
-              name="message"
-              rows="5"
-              placeholder="Include a message..."
-              value={message}
-              onChange={handleChange}
-            />
-          </div>
-          {errorMessage && (
-            <div>
-              <p className="error-text">{errorMessage}</p>
+        <div className="contactInfo">
+          <h1>Contact Me</h1>
+          <p>
+            I look forward to hearing from you. Please use the method most
+            comfortable for you. I can be reached by phone at 770-598-9675,
+            email at cward@beyondeagleswings, the form below, or through my{" "}
+            <a
+              href="https://www.facebook.com/beyondeagleswings"
+              target="_blank"
+              style={{
+                color: "inherit",
+              }}
+            >
+              Facebook page
+            </a>
+            .
+          </p>
+        </div>
+        <div className="formDiv">
+          <form id="contact-form" onSubmit={handleSubmit}>
+            <div className="formName">
+              {/* <label htmlFor="name">Name:</label> */}
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                value={name}
+                onChange={handleChange}
+              />
             </div>
-          )}
-          <div className="formSubmitDiv">
-            <button type="submit" className="formSubmitBtn">
-              Submit
-            </button>
-          </div>
-        </form>
+            <div className="formEmail">
+              {/* <label htmlFor="email">Email address:</label> */}
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                value={email}
+                onChange={handleChange}
+              />
+            </div>
+            <div className="formPhone">
+              {/* <label htmlFor="phone-input">Phone number:</label> */}
+              <input
+                type="phone-input"
+                name="phone"
+                placeholder="Phone Number"
+                value={phone}
+                onChange={handleChange}
+              />
+            </div>
+            <div className="formMessage">
+              {/* <label htmlFor="message">Message:</label> */}
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Include a message..."
+                value={message}
+                onChange={handleChange}
+              />
+            </div>
+            {errorMessage && (
+              <div>
+                <p className="error-text">{errorMessage}</p>
+              </div>
+            )}
+            <div className="formSubmitDiv">
+              <button type="submit" className="formSubmitBtn">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   );

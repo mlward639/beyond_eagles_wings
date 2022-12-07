@@ -264,7 +264,7 @@ button span {
 
 .compInfoQuoteDiv {
   /* border: 1px solid red; */
-  margin-top: 80px;
+   margin-top: 80px; /* change to 70xp? */
   width: 20%;
   margin-right: 80px;
   display: flex;
@@ -354,39 +354,101 @@ top: 0;
 }
 
 /* services page */
-/* .servicesDiv {
-  position: relative;
-  top: 100px;
+.servicesDiv {
+  position:relative;
+  top: 25px;
   border: 1px solid red;
   box-sizing: border-box;
-  width: 70%;
+  /* width: 70%; */
   margin-left: auto;
   margin-right: auto;
-} */
+    background-color: var(--five);
+  color: var(--six);
+  
+}
+
+.serviceCompDivs {
+  position: relative;
+  /* border: 6px solid green; */
+  box-sizing: border-box;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 80vh; */
+  padding-top: 15px;
+}
+
+.servicesTitle {
+  text-align: center;
+  padding-bottom: 10px;
+}
 
 .servicesDesc {
   font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.serviceListDiv {
+  /* border: 2px solid pink; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.linkDiv {
+  border: 2px solid var(--six);
+  width: 25%;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 40px;
+  /* border-radius: 5px; */
 }
 
 .servicesLinks {
  color: inherit;
  text-decoration: none;
-
 }
 
-.servicesList {
-  list-style: none;
+.servicesListTitle {
+  background-color: var(--six);
+  color: var(--five);
+  text-align: center;
 }
 
-.serviceCompDivs {
-  position: relative;
-  top: 100px;
-  border: 1px solid red;
-  box-sizing: border-box;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 80vh;
+
+.servPic {
+  height: 25vh;
+  background-size: 100%;
+}
+
+.initial {
+  background-image: url(../src/assets/images/coffee.jpg);
+}
+
+.review {
+  background-image: url(../src/assets/images/mountains2.jpg);
+}
+
+.legacy {
+  background-image: url(../src/assets/images/beach.jpg);
+}
+
+.plan {
+  background-image: url(../src/assets/images/bed2.jpg);
+}
+
+.vigil {
+  background-image: url(../src/assets/images/coffee.jpg);
+}
+
+.addl {
+  background-image: url(../src/assets/images/hands.jpg);
+}
+
+.rates {
+  background-image: url(../src/assets/images/stones.jpg);
 }
 
 /* initial consult */
@@ -454,16 +516,36 @@ font-size: 24px;
 }
 
 /* contact page */
-.contactDiv {
-  margin-top: 100px;
-  width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  /* background-color: blue;  add a background color once have color scheme*/ 
-  border: 2px solid yellow;
+.contactContainer {
+  height: 100vh;
+  top: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--six);
+  color: var(--five);
+  z-index: -1;
+  justify-content: center;
+
 }
 
-.contactDiv p {
+.contactDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactInfo {
+  margin-top: 70px;
+  width: 50%;
+  height: 85vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* background-color: var(--five); */
+  border: 2px solid yellow;
+  margin-right: 3%
+}
+
+.contactInfo p {
   font-size: 24px;;
 }
 
@@ -471,37 +553,46 @@ font-size: 24px;
   display: flex;
   justify-content: center;
   border: 1px solid green;
-  margin-top: 0px;
+  margin-top: 70px;
+  width: 45%;
 }
 
 form {
-  width: 40%;
-  border: 1px solid red;
+  width: 90%;
+  /* figure out height issue */
+  /* border: 1px solid red; */
   padding: 15px;
   border-radius: 15px;
   font-size: 24px;
+  background-color: var(--five);
 
 }
 
 .formName, .formEmail, .formPhone, .formMessage {
   width: 100%;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   box-sizing:border-box;
 }
 
 
 input {
   margin: 10px 0;
-  padding: 5px;
+  padding: 10px;
   width: 100%;
   border: 1px solid black;
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
+  font-size: 22px;
+  background-color: var(--one);
 }
 
 textarea {
   width: 100%;
+  font-size: 22px;
+  padding: 10px;
+  background-color: var(--one);
+
 }
 
 /* input:focus {
@@ -515,6 +606,11 @@ label {
 
 .formSubmitBtn {
   border-radius: 5px;
+  padding: 10px;
+  font-size: 22px;
+  background-color: var(--one);
+  border: 2px solid var(--five);
+  color: var(--five)
 }
 .formSubmitDiv {
   display: flex;

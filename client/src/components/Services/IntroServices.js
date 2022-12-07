@@ -13,19 +13,17 @@ function IntroServices() {
         I provide a variety of services that can be tailored to meet each
         client's individual needs. Click on a service below to learn more.
       </p>
-      <div>
-        <ul>
-          {" "}
-          {navbarItems[2].submenu.map((item, index) => {
-            return (
-              <li className="servicesList">
-                <Link to={item.url} className="servicesLinks">
-                  {item.title}
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
+      <div className="serviceListDiv">
+        {navbarItems[2].submenu.map((item, index) => {
+          return (
+            <div className={`linkDiv`}>
+              <Link to={item.url} className="servicesLinks">
+                <h2 className="servicesListTitle">{item.title}</h2>
+                <div className={`servPic ${item.class}`}></div>
+              </Link>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
