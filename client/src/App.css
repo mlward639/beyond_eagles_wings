@@ -357,6 +357,7 @@ top: 0;
 .servicesDiv {
   position:relative;
   top: 25px;
+  min-height: 86vh;
   border: 1px solid red;
   box-sizing: border-box;
   /* width: 70%; */
@@ -369,7 +370,7 @@ top: 0;
 
 .serviceCompDivs {
   position: relative;
-  border: 6px solid green;
+  /* border: 6px solid green; */
   box-sizing: border-box;
   width: 80%;
   margin-left: auto;
@@ -540,7 +541,51 @@ top: 0;
     margin-bottom: 85px;
   }
 
+/* legacy project */
+.legacyContainer {
+  padding-bottom: 27px;
+}
+.legacyDiv {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid white; */
+}
 
+.legacyImgDiv {
+  /* border: 11px solid green; */
+  width: auto;
+  height: 55vh;
+}
+
+.legacyImgDiv img {
+  height: 100%;
+}
+
+.legacyInfoDiv {
+  /* border: 3px solid pink; */
+  width: 50%;
+  margin-left: 20px;
+}
+
+.legacyInfoDiv h1 {
+margin-bottom: 15px;}
+
+.legacyInfoDiv p {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.legacyQuoteDiv {
+  font-style: oblique;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  text-align: center;
+  background-color: var(--seven);
+  /* background-color: var(--one);
+  color: var(--seven); */
+  padding: 15px;
+}
 
 /* Vigil Planning */
 .VigilPlanList, .vigilList {
