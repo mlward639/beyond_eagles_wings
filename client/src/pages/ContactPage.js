@@ -82,7 +82,7 @@ function ContactPage() {
           <p>
             I look forward to hearing from you. Please use the method most
             comfortable for you. I can be reached by phone at 770-598-9675,
-            email at cward@beyondeagleswings, the form below, or through my{" "}
+            email at cward@beyondeagleswings, this form, or through my{" "}
             <a
               href="https://www.facebook.com/beyondeagleswings"
               target="_blank"
@@ -90,9 +90,9 @@ function ContactPage() {
                 color: "inherit",
               }}
             >
-              Facebook page
-            </a>
-            .
+              Facebook
+            </a>{" "}
+            page.
           </p>
         </div>
         <div className="formDiv">

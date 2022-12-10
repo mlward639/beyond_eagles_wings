@@ -358,7 +358,7 @@ top: 0;
   position:relative;
   top: 25px;
   min-height: 86vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   box-sizing: border-box;
   /* width: 70%; */
   margin-left: auto;
@@ -694,6 +694,81 @@ margin-bottom: 15px;}
   width: 45vw;
 }
 
+/* Rates */
+.ratesContainer {
+  /* border: 3px solid yellow; */
+}
+
+.ratesContainer h1 {
+  text-align: center;
+}
+
+.ratesDiv {
+  /* border: 3px solid blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.ratesDiv h2 {
+  font-size: 26px;
+}
+
+.ratesDiv p {
+  font-size: 20px;
+}
+
+.ratesDiv h3 {
+  font-size: 24px;
+}
+
+.ratesLeft {
+  /* border: 1px solid var(--six); */
+  width: 40%;
+  margin-right: 5%;
+  padding: 15px;
+  /* background-color: var(--two);
+  color: var(--seven) */
+  background-color: var(--seven);
+
+}
+
+.ratesLeft div {
+  margin-bottom: 15px;
+}
+
+.ratesRight {
+  /* border: 1px solid var(--six); */
+  width: 40%;
+  padding: 15px;
+  background-color: var(--seven);
+  /* color: var(--seven) */
+
+}
+
+.ratesRight div {
+  margin-bottom: 10px;
+}
+
+.levels {
+  padding-left: 30px;
+  list-style-type: circle;
+}
+
+.levels li {  
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.levels p {
+font-size: 20px;
+}
+
+.feeScale {
+  text-align: center;
+  margin-top: 20px;
+}
 
 /* contact page */
 .contactContainer {
@@ -716,31 +791,44 @@ margin-bottom: 15px;}
 
 .contactInfo {
   margin-top: 70px;
-  width: 50%;
+  width: 45%;
   height: 85vh;
   padding-left: 20px;
   padding-right: 20px;
   /* background-color: var(--five); */
-  border: 2px solid yellow;
-  margin-right: 3%
+  /* border: 2px solid yellow; */
+  margin-right: 3%;
+  margin-left: 5%;
+  padding-top: 10px;
+}
+
+.contactInfo h1 {
+  font-size: 2.5em;
 }
 
 .contactInfo p {
-  font-size: 24px;;
+  font-size: 24px;
+  margin-top: 15px;
 }
 
 .formDiv {
-  display: flex;
-  justify-content: center;
-  border: 1px solid green;
+  /* display: flex;
+  justify-content: center; */
+  /* border: 1px solid green; */
   margin-top: 70px;
   width: 45%;
+  display: block;
+  padding-top: 40px;
+  margin-right: 5%;
 }
 
 form {
   width: 90%;
   /* figure out height issue */
   /* border: 1px solid red; */
+  /* height: 50vh; */
+  margin-right: auto;
+  margin-left: auto;
   padding: 15px;
   border-radius: 15px;
   font-size: 24px;
@@ -772,7 +860,7 @@ textarea {
   font-size: 22px;
   padding: 10px;
   background-color: var(--one);
-
+  resize: vertical;
 }
 
 /* input:focus {
